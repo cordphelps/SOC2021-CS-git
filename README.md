@@ -70,7 +70,7 @@ Its a good idea to try and collect changes associated with specific improvements
 
 This non-trivial exercise is best described here: https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository .
 
-The sledgehammer approach would be to 1) update your .gitignore , 2) delete and re-create the github repo , 3) delete the local repo ( $ rm -r .git ) , 4) re-create the local repo and push it the empty github repo.
+The sledgehammer approach would be to 1) update your .gitignore , 2) delete and re-create the github repo , 3) delete the local repo ( $ rm -r .git ) , 4) re-create the local repo and push it the empty github repo. This solution erases all record of previous commits (if you care).
 
 
 
