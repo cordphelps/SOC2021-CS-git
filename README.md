@@ -1,7 +1,8 @@
-
-
-git it together: earlybird hurdles
-===
+---
+title: "git it together: earlybird hurdles"
+output: 
+ github_document: default
+---
 
 ## Oh, No!, I really don't want git copying irrelevant OS files to my repo. How can I prevent that?
 
