@@ -66,15 +66,15 @@ Its a good idea to try and collect changes associated with specific improvements
 
 
 
-## Oh No! The National Weather Service might be really mad that my API keys are being published in the clear. Pushing my secret credentials for a while now is not cool. I've updated my .gitignore , but how do I erase the record of the file completely from the repo?
+## Oh No! The National Weather Service might be really mad that my API keys are being published in the clear. I've updated my .gitignore , but how do I erase the record of the file completely from the repo?
 
 This non-trivial exercise is best described here: https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository .
 
-The sledgehammer approach would be to 1) update your .gitignore , 2) delete and re-create the github repo , 3) delete the local repo ( $ rm -r .git ) , 4) re-create the local repo and push it the empty github repo. This solution erases all record of previous commits (if you care).
+The sledgehammer approach would be to 1) update your .gitignore , 2) delete and re-create the github repo , 3) delete the local repo ( $ rm -r .git ) , 4) re-create the local repo and push it the now empty github repo. This solution erases all record of previous commits (if you care).
 
 
 
-## Bummer! I just changed the wrong local file. No way I'm going to push that to the repo, and I really want to recover the previous version.
+## Bummer! I just changed the wrong local file. I'm not going to push that to the repo, and I really want to recover the previous version.
 
 ```bash
 
